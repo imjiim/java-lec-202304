@@ -5,7 +5,7 @@ public class CharExample {
 	public static void main(String args[]) {
 		
 		char alpha =97;
-		byte x=127;
+		byte x =127;
 		
 		float f =1.0f;//실수의 기본은 더블이라 1.0;은 에러
 		

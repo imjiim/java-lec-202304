@@ -16,23 +16,26 @@ b-2) 메소드는 행위
 
 interface 인터페이스명 {
 }
-/
+*/
 
- 2. 주석
- 한줄주석/ 여러줄 주석이 있다 
+// 2. 주석
+// 한줄주석/ 여러줄 주석이 있다 
  
- /<-- 한줄주석
+//<-- 한줄주석
   
-  /*
-<--이게 여려줄 주석
- */
+/*
+   <--이게 여려줄 주석
+*/
+
+package day03; 
 
 public class Day03First {
 
 	int maxAge=40;// 최대 나이는 40이다
 
 	//메인메소드 =어플리케이션 스타팅, 프로젝트 시작시 무조건하나의 메인메소드는 있어야한다  
-	public static void main(String ages []) {
+	public static void main(String ages[]) {
 		System.out.println("히히히");
-		}
 	}
+	
+}
