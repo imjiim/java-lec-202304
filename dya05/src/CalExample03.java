@@ -43,10 +43,5 @@ public class CalExample03 {
 		
 		
 		
-		
-		
-		
-		
-		
 	}
 }
