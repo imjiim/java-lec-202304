@@ -5,7 +5,7 @@ public class ScopeExamlpe {
 	public static void main(String args[]) {
 		Cat cat =new Cat();//객체를 생성합니다 
 		cat.sayMyName();// 너 이름이뭐니 -지역 변수 임지영 출력
-        cat.sayMyAge(); // 너 나이가 몊이니?- 전역(클래스)의 변수 야옹이 출력
+        cat.sayMyAge(); // 너 나이가 몇이니?- 전역(클래스)의 변수 야옹이 출력
 	}
 }
 
