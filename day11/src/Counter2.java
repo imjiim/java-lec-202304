@@ -19,3 +19,4 @@ public class Counter2 {
 		Counter2 d = new Counter2();
 	}
 }
+

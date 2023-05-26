@@ -16,7 +16,7 @@ public class counter {
 	}
 	//정적 메서드 = 정적 (메서드 area 에 한번만할당)
 	public void plusDynamicCounter() {
-		static
+		
 	}
 	
 	
