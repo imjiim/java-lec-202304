@@ -4,7 +4,7 @@ public class WebApp {
 	
 	 public static void main (String args[]) {
 		 
-		 StaticExample.counter Counter = new counter();
+		 counter Counter = new counter();
 		 //이걸 만나는 순간 JVM의 execute engine이
 		 //Heap 영역에 데이터 할당
 		 Counter.plusDynamicCounter();

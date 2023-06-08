@@ -4,8 +4,11 @@ package acc.data;
 
 public class Child extends Parten {
 	
+	private String publicName;
+	private String protectedName;
+
 	//생성자 내에서 부모속성(멤버 변수)에 접근해보자 
-	 public Chlid() {
+	 public void Chlid() {
 		 this.publicName =" 임지영"; //접근가능
 		 
 		 this.defaultName ="임지영";//접근 가능

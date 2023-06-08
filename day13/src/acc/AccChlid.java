@@ -3,12 +3,14 @@ import acc.data.Parten
 
 public class AccChlid extends Parten{
 	 
-	public AccChild() {
+	private String publicName;
+
+	public AccChlid() {
 		
-		this.public Name = "임지영";
-		this.default Name = "임지영";
-		this.protecte dName ="임지영";
-		this.private Name= "임지영";
+		this.publicName = "임지영";
+		this.defaultName = "임지영";
+		this.protetctedName ="임지영";
+		this.privateName= "임지영";
 		
 	}
 

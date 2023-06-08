@@ -2,9 +2,9 @@ package StaticeExample;
 
 public class StaticeExample {
 	
-	 public stactic void main (String args[]) {
+	 public static void main (String args[]) {
 		 
-		 StaticeExample.counter counter = new counter();
+		 counter counter = new counter();
 		 //이걸 만나는 순간 JVM의 execute engine이
 		 //Heap 영역에 데이터 할달
 		 System.out.println(counter.dynamicCounter);
