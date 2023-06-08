@@ -69,7 +69,7 @@ while, do ~while,for,(향상된 foreach)
 int[]a =new int[2]; //0,1
 
 -배열의 최대방번호를 아는 공식은
-변수명.length -1// 최대 방번호 \*
+변수명.length -1// 최대 방번호 */
 
 
 
