@@ -3,14 +3,19 @@ package manager.service.impl;
 import manager.entity.Student;
 import manager.repository.Repository;
 import manager.service.ManagerService;
+import manager.repository.impl.CollectionRepository;
 //import manager.Repository;
 import manager.repository.impl.DBRepository;
 
 import java.util.List;
 
 public class ManagerServiceImpl implements ManagerService {
+	
+	//리포지터리 객체 생성
+	//불편객체
 
-	private  final Repository repository = new DBRepository();
+  //	private  final Repository repository = new DBRepository();
+	private  final Repository repository = new CollectionRepository();
 	
 	
     @Override
@@ -50,7 +55,7 @@ public class ManagerServiceImpl implements ManagerService {
     	
     	//조건 1. 전체를 조회한다 
     	 list = repository.selectStudents();
-    }else if (student .getName() ! = null) {
+    }else if (student .getName() != null) {
     	
     	//2.학생 이름을 검색어로 조회한다
     	list = repository.selectStudent(student.getName());
